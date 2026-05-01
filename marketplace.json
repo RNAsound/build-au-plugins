@@ -1,0 +1,20 @@
+{
+  "name": "rnasound-au-plugins",
+  "interface": {
+    "displayName": "RNAsound AU Plugins"
+  },
+  "plugins": [
+    {
+      "name": "build-au-plugins",
+      "source": {
+        "source": "local",
+        "path": "./plugins/build-au-plugins"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    }
+  ]
+}
