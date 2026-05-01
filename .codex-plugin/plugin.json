@@ -1,0 +1,43 @@
+{
+  "name": "build-au-plugins",
+  "version": "0.1.0",
+  "description": "Codex workflows for AUv3, SwiftUI audio plugin, and real-time DSP development.",
+  "author": {
+    "name": "Aren Akian",
+    "email": "aren@mekina.io",
+    "url": "https://github.com/rnasound"
+  },
+  "homepage": "https://github.com/rnasound/build-au-plugins",
+  "repository": "https://github.com/rnasound/build-au-plugins",
+  "license": "MIT",
+  "keywords": [
+    "auv3",
+    "audio-unit",
+    "swiftui",
+    "dsp",
+    "audio-plugin"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Build AU Plugins",
+    "shortDescription": "Build and validate AUv3 audio plugins with SwiftUI and real-time DSP guidance.",
+    "longDescription": "Build AU Plugins provides focused Codex skills for Apple AUv3 plugin architecture, host validation, distribution, real-time DSP, filters, dynamics, and regression testing.",
+    "developerName": "Aren Akian",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/rnasound/build-au-plugins",
+    "privacyPolicyURL": "https://github.com/rnasound/build-au-plugins",
+    "termsOfServiceURL": "https://github.com/rnasound/build-au-plugins",
+    "defaultPrompt": [
+      "Design an AUv3 plugin architecture.",
+      "Debug AUv3 host discovery and auval failures.",
+      "Implement real-time-safe DSP."
+    ],
+    "brandColor": "#0A84FF",
+    "screenshots": []
+  }
+}
